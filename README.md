@@ -12,3 +12,13 @@ I came up with this while i was looking for a solution to generate a dungeon ins
 I quite like it as this doesnt need ANY storing logic -> last cell visited bull crap and weird remembering of visited cells isnt needed for this algorithm.
 
 All you need to do is rotate the u shapes (which is insane cause this scales infinitely).
+
+How does it scale?
+
+for the smalles working one its 4x4 cells that need to be connected
+it uses 5 u shapes
+
+for the next size its 8x8 cells
+and uses 21 u shapes
+
+so the scaling is 2^(1+x) with x natural numbers
