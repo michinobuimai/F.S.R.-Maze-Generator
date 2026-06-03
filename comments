@@ -1,0 +1,15 @@
+# You can go through the screenshots step by step the "algorithm" should be self explanatory.
+
+# you have the u shapes for each square and you can rotate them arbitarily.
+
+# Aswell as the u shape that connects the other u shapes it can be rotated up down left or right.
+
+# if you want to scale this up you can just see the square as multiple parts of squares.
+
+
+
+
+# as such you could for example take four of the generated mazes and merge them with the addition of a singular u shape in the middle.
+# (see last screenshot)
+
+# it's surprisingly (not really surprising but still it was cool to see) scalable.
