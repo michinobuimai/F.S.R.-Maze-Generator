@@ -2,6 +2,9 @@ read the comments on how it works i was too lazy to make a proper explanation bu
 
 EDIT
 
+IT IS NOT A TRUE MAZE its usage is heavily centered towards procedurally generating dungeons
+
+
 This uses the U shape also used in the Hiblerts filling shape to create a maze.
 
 It is meant to be specifically used on squares.
@@ -21,4 +24,4 @@ it uses 5 u shapes
 for the next size its 8x8 cells
 and uses 21 u shapes
 
-so the scaling is 2^(1+x) with x natural numbers
+
