@@ -1,1 +1,14 @@
 read the comments on how it works i was too lazy to make a proper explanation but it is quite cool ;)
+
+EDIT
+
+This uses the U shape also used in the Hiblerts filling shape to create a maze.
+
+It is meant to be specifically used on squares.
+
+I haven't found a nice algorithm for my usecases so i made my own that is easier to comprehend and implement (thus the lack of code and explanations).
+
+I came up with this while i was looking for a solution to generate a dungeon inside minecraft with a limited square area.
+I quite like it as this doesnt need ANY storing logic -> last cell visited bull crap and weird remembering of visited cells isnt needed for this algorithm.
+
+All you need to do is rotate the u shapes (which is insane cause this scales infinitely).
