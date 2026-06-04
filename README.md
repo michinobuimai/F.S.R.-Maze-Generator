@@ -24,4 +24,6 @@ it uses 5 u shapes
 for the next size its 8x8 cells
 and uses 21 u shapes
 
+There is a special way to make it less predictable the more you scale it
+using an alternate version of this algorithm.
 
